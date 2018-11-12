@@ -1,0 +1,53 @@
+﻿table {
+    text-align: center;
+}
+
+tr td:nth-child(2) {
+    text-align: left;
+}
+
+li.nav-item a {
+    color: white;
+}
+
+li.nav-item a:hover {
+    text-decoration: none;
+    color: #ededed;
+}    
+
+#loginModal .modal-content {
+    padding: 20px;
+}
+
+#login-submit, #register-submit {
+    background: #007bff;
+    color: white;
+}
+
+.panel-heading {
+    text-align: center;
+}
+
+#btn_upload_file {
+    line-height: 1.0em;
+    margin-bottom: 0.3em;
+}
+
+#upload_div {
+    margin-bottom: 0.3em;
+}
+
+#register-errors, #login-errors {
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.hello-username {
+    color: white !important;
+    line-height: 2.5em;
+}
+
+.nav-link {
+    margin-right: 1em;
+}
