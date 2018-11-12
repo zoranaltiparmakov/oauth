@@ -1,0 +1,17 @@
+﻿@model TODO_WebAPI.Models.User
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Index";
+}
+
+@if (!User.Identity.IsAuthenticated)
+{
+    <h1>You must login first.</h1>
+}
+else
+{
+    <h1>Nothing interesting.... :)</h1>
+    <br />
+    <h3>Go get <a href="/Manage">credentials</a>, and check the real ..</h3>
+}

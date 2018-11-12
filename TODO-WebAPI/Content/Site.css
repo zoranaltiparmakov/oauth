@@ -1,0 +1,26 @@
+﻿li.nav-item a {
+    color: white;
+}
+
+li.nav-item a:hover {
+    text-decoration: none;
+    color: #ededed;
+}
+
+.modal-content {
+    padding: 20px;
+}
+
+#login-submit, #register-submit {
+    background: #007bff;
+    color: white;
+}
+
+.panel-heading {
+    text-align: center;
+}
+
+footer {
+    margin-top: 30em;
+    margin: 5em;
+}
